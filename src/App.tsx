@@ -74,7 +74,7 @@ export default function Page() {
           ) : (
             <img
               className="h-[200px] mt-6 mb-4" // Adjusted margin for smaller devices
-              src={`/assets/sad/sad${sadGifIndex}.gif`}
+              src={`/sad/sad${sadGifIndex}.gif`}
               alt={`Sad Gif ${sadGifIndex}`}
             />
           )}
