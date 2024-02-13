@@ -54,7 +54,7 @@ export default function Page() {
      
       {yesPressed ? (
         <>
-          <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
+          <img src="/happy/for-yes.gif" />
           <div className="my-4 text-4xl font-bold text-center">Yayyyyy!!! I love you my Moon!! </div>
           <h5 className="font-bold text-center">Please Come back, I will make everything right I promise, I will take care of you.</h5>
           <a href="https://maheera-card.netlify.app/" className="text-blue-500 underline block text-center mt-2">
