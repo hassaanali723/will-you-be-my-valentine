@@ -68,13 +68,13 @@ export default function Page() {
           {initialGifVisible ? (
             <img
               className="h-[150px] mt-6 mb-4" // Adjusted margin for smaller devices
-              src="/src/propose.gif"
+              src="propose.gif"
               alt="Initial Gif"
             />
           ) : (
             <img
               className="h-[200px] mt-6 mb-4" // Adjusted margin for smaller devices
-              src={`/src/assets/sad/sad${sadGifIndex}.gif`}
+              src={`/assets/sad/sad${sadGifIndex}.gif`}
               alt={`Sad Gif ${sadGifIndex}`}
             />
           )}
